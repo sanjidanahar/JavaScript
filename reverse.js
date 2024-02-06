@@ -12,7 +12,6 @@ for(const leter of sentence){
 // console.log(reverse);
 
 
-
 //length hocche koto ta letter ache space soho count kore
 let rev = ''
 for(let i=0; i<sentence.length; i++){
@@ -21,9 +20,11 @@ for(let i=0; i<sentence.length; i++){
     const letter = sentence[i];
     rev = letter + rev;
 }
-console.log(rev);
 
+console.log(rev);
 
 //shortcut
 const reversed = sentence.split('').reverse().join('');
 console.log(reversed);
+
+
