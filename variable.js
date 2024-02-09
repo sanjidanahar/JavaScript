@@ -1,22 +1,37 @@
 /**
- * varible hocche amon akta jinis jeta change kora jay.
- * VARIABLE ==> Vay + able
- * 5 things to declare a variable
+ * Vriable ==> variable is nothing but a container
  */
 
-var height = 38;
-var price = 38;
-var year = 2001;
-var money = 2000;
-money =  500;
 
-var age;
-console.log(money);
-console.log(price);
+//number
+var sunglassPrice = 80;
 
 
+//
+var subject = "CSE";
 
-//another
-var age = 17;
-age = 35;
-console.log(age);
+
+//boolean 
+var passed = true;
+
+
+/**
+ * Naming Convention
+ * 1. Single word
+ * 2. No quote
+ * 3. No gap or dash
+ * 4. can not start with number
+ * 5. can not be a keyword
+ * 6.Prefer camelcase
+ */
+
+var lastExamResult = 85;
+
+/**
+ * Operation
+ * 1. + ,-, *, /
+ * 2. +=, -=, *=, /=
+ * 3.isNaN
+ * 4.Null
+ * 5. Number
+ */

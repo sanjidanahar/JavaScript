@@ -1,24 +1,17 @@
-const college = {
-    name : 'vnc',
-    class : ['10','14','48'],
-    events: ['science fair','bijoy dibos','spcial day'],
-    unique: {
-        color: 'black',
-        result: {
-            gpa: 5,
-            merit: 'top'
+const money = 500;
+if(money > 300){
+    console.log("Bro You are Rich");
+}
+else{
+    if(money > 100){
+        console.log("Tui Gorib o na borolok o na ");
+    }
+    else{
+        if(money > 0){
+            console.log("Dost kola kha, calcium bara");
+        }
+        else{
+            console.log("Tui amar bondhu na");
         }
     }
 }
-// console.log(college.unique)
-console.log(college.unique.result.merit)  // ektar vitor aro onk ache tai segulo dekhaite majhkhane . diye seta likhte hoy
-
-
-//jodi man change korte hoy
-college.events[1] = '16 December';
-console.log(college.events[1])
-
-
-// delete korte caile
-delete college.class;
-console.log(college)
