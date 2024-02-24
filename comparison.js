@@ -29,5 +29,7 @@ console.log( 10 === '10');  //man and type check kore
  * not equal
  */
 
+
+
 console.log(10 !='10');
 console.log(10 != 10.1);
