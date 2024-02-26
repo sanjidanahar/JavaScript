@@ -1,7 +1,6 @@
 /**
  * MULTI_LEVEL_CONDITIONS
  */
-
 // const price = 5000;
 const price = 9000;
 if(price >= 5000){
