@@ -21,3 +21,4 @@ console.log(capital); //sob number dekhabe
 // console.log(capital[1]); // string koto number position a ache tai declear korbe
 capital[1] = ch;
 console.log(capital);
+
