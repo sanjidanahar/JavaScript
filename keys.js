@@ -9,5 +9,3 @@ const keys = Object.keys(computer);
 console.log(keys)
 
 
-
-
